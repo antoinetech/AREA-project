@@ -1,0 +1,224 @@
+{
+  "welcome": "Bienvenue sur notre site !",
+  "login": "Connexion",
+  "register": "Inscription",
+  "profile": {
+    "title": "Profil utilisateur",
+    "name": "Prénom",
+    "surname": "Nom",
+    "email": "Email",
+    "editFirstName": "Modifier le prénom",
+    "editLastName": "Modifier le nom",
+    "editPassword": "Modifier le mot de passe",
+    "logout": "Déconnexion",
+    "pleaseLogin": "Veuillez vous connecter pour voir votre profil."
+  },
+  "services": {
+    "title": "Connexions aux services",
+    "connect": "Connecter",
+    "subscribe": "S'abonner",
+    "unsubscribe": "Se désabonner",
+    "disconnect": "Déconnecter"
+  },
+  "modals": {
+    "editFirstName": {
+      "title": "Modifier le prénom",
+      "message": "Une fois que vous aurez appuyé sur \"Sauvegarder\", les nouvelles informations vous seront assignées à votre prochaine connexion.",
+      "firstName": "Prénom",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "placeholder": "Nouveau prénom",
+      "firstNameRequired": "Veuillez entrer votre prénom"
+    },
+    "editLastName": {
+      "title": "Modifier le nom",
+      "message": "Une fois que vous aurez appuyé sur \"Sauvegarder\", les nouvelles informations vous seront assignées à votre prochaine connexion.",
+      "lastName": "Nom",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "placeholder": "Nouveau nom",
+      "lastNameRequired": "Veuillez entrer votre nom"
+    },
+    "editPassword": {
+      "title": "Modifier le mot de passe",
+      "message": "Une fois que vous aurez appuyé sur \"Sauvegarder\", les nouvelles informations vous seront assignées à votre prochaine connexion.",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "save": "Sauvegarder",
+      "cancel": "Annuler",
+      "placeholderCurrent": "Mot de passe actuel",
+      "placeholderNew": "Nouveau mot de passe",
+      "currentPasswordRequired": "Veuillez entrer votre mot de passe actuel",
+      "newPasswordRequired": "Veuillez entrer votre nouveau mot de passe"
+    },
+    "logout": {
+      "title": "Confirmation de déconnexion",
+      "message": "Êtes-vous sûr de vouloir vous déconnecter ?",
+      "confirm": "Déconnexion",
+      "cancel": "Annuler"
+    },
+    "serviceLogout": {
+      "title": "Déconnexion de",
+      "message": "Êtes-vous sûr de vouloir vous déconnecter de {{service}} ?",
+      "confirm": "Déconnecter",
+      "cancel": "Annuler"
+    },
+    "unsubscribe": {
+      "title": "Désabonnement de",
+      "message": "Êtes-vous sûr de vouloir vous désabonner de {{service}} ?",
+      "confirm": "Désabonner",
+      "cancel": "Annuler"
+    }
+  },
+  "messages": {
+    "fetchUserInfoError": "Échec de la récupération des informations utilisateur",
+    "fetchSubscriptionsError": "Échec de la récupération des abonnements utilisateur",
+    "updateFirstNameSuccess": "Prénom mis à jour avec succès",
+    "updateFirstNameError": "Échec de la mise à jour du prénom",
+    "updateLastNameSuccess": "Nom mis à jour avec succès",
+    "updateLastNameError": "Échec de la mise à jour du nom",
+    "fillAllFields": "Veuillez remplir tous les champs",
+    "updatePasswordSuccess": "Mot de passe mis à jour avec succès",
+    "updatePasswordError": "Échec de la mise à jour du mot de passe",
+    "logoutSuccess": "Déconnecté avec succès",
+    "logoutError": "Une erreur s'est produite lors de la déconnexion",
+    "disconnectedFrom": "Déconnecté de",
+    "disconnectError": "Échec de la déconnexion de",
+    "unsubscribedFrom": "Désabonné de",
+    "unsubscribeError": "Échec du désabonnement de",
+    "subscribedTo": "Abonné à",
+    "subscribeError": "Échec de l'abonnement à",
+    "pleaseLoginFirst": "Veuillez vous connecter d'abord",
+    "loading": "Chargement...",
+    "fetchServicesError": "Impossible de récupérer les Services.",
+    "fetchConnectedServicesError": "Impossible de récupérer les Services connectés.",
+    "fetchAreasError": "Impossible de récupérer les AREA.",
+    "areaCreatedSuccess": "AREA créée avec succès !",
+    "areaCreationFailed": "Échec de la création de l'AREA.",
+    "areaCreationError": "Erreur lors de la création de l'AREA.",
+    "areaDeletedSuccess": "AREA supprimée avec succès !",
+    "areaDeletionError": "Impossible de supprimer l'AREA.",
+    "areaUpdatedSuccess": "L'AREA '{{areaName}}' a été modifiée avec succès.",
+    "areaUpdateFailed": "Échec de la modification de l'AREA : {{message}}",
+    "areaUpdateError": "Erreur lors de la mise à jour de l'AREA."
+  },
+  "menu": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "information": "Informations utiles",
+    "logout": "Déconnexion",
+    "language": "Choisissez votre langue"
+  },
+  "information": {
+    "title": "À quoi sert le projet AREA ?",
+    "description": "Le projet AREA (Actions, Réactions, Événements Automatisés) est une plateforme qui permet aux utilisateurs de créer des automatisations entre différents services en ligne. Inspiré du concept \"If This Then That\" (IFTTT), AREA offre une manière simple et intuitive de connecter vos applications et services préférés pour automatiser des tâches répétitives.",
+    "mainFeaturesTitle": "Fonctionnalités principales :",
+    "features": {
+      "actions": {
+        "title": "Actions",
+        "description": "Événements déclencheurs provenant d'un service. Par exemple, la réception d'un nouvel email ou la publication d'un nouveau tweet."
+      },
+      "reactions": {
+        "title": "Réactions",
+        "description": "Tâches exécutées automatiquement en réponse à une action. Par exemple, envoyer une notification ou créer un événement dans un calendrier."
+      },
+      "customAutomation": {
+        "title": "Automatisation personnalisée",
+        "description": "Créez des workflows adaptés à vos besoins en combinant différentes actions et réactions entre plusieurs services."
+      }
+    },
+    "availableActionsReactionsTitle": "Actions et Réactions disponibles par Service :",
+    "actions": "Actions",
+    "reactions": "Réactions",
+    "services": {
+      "outlook": {
+        "name": "Outlook",
+        "actions": "Recevoir un mail",
+        "reactions": "Envoyer un mail"
+      },
+      "github": {
+        "name": "GitHub",
+        "actions": "Détection de commit, Création d'un dépôt, Suivre un dépôt",
+        "reactions": ""
+      },
+      "spotify": {
+        "name": "Spotify",
+        "actions": "",
+        "reactions": "Mettre en pause la lecture, Créer une playlist"
+      },
+      "discord": {
+        "name": "Discord",
+        "actions": "Réception d'un message dans un channel",
+        "reactions": "Envoi d'un message dans un channel"
+      },
+      "miro": {
+        "name": "Miro",
+        "actions": "Détection d'ajout d'un item",
+        "reactions": "Ajout d'un texte, Ajout d'un cercle, Ajout d'un post-it, Ajouter une frame"
+      },
+      "microsoftCalendar": {
+        "name": "Microsoft Calendar",
+        "actions": "Détection d'ajout d'un événement",
+        "reactions": "Ajout d'un événement"
+      },
+      "twitch": {
+        "name": "Twitch",
+        "actions": "",
+        "reactions": "Mise à jour de la bio"
+      },
+      "twitter": {
+        "name": "Twitter",
+        "actions": "",
+        "reactions": "Faire un post"
+      }
+    },
+    "whyUseAreaTitle": "Pourquoi utiliser AREA ?",
+    "whyUseAreaDescription": "AREA simplifie votre quotidien en automatisant les tâches répétitives et chronophages. En centralisant les interactions entre vos applications, vous gagnez du temps et améliorez votre productivité.",
+    "examplesTitle": "Exemples d'utilisation :",
+    "examples": {
+      "example1": "Publier automatiquement un message sur Discord lorsque vous recevez un email important.",
+      "example2": "Ajouter une tâche dans votre gestionnaire de tâches lorsque vous créez un nouveau fichier dans Google Drive.",
+      "example3": "Recevoir une notification sur votre téléphone lorsque la météo annonce de la pluie."
+    },
+    "howToStartTitle": "Comment commencer ?",
+    "howToStartDescription": "Pour débuter avec AREA, rendez-vous sur la page de création d'AREA et connectez vos services favoris. Configurez vos propres automatisations en quelques étapes simples et laissez AREA s'occuper du reste !",
+    "createAreaNowButton": "Créer une AREA maintenant"
+  },
+  "createArea": {
+    "title": "Créer une nouvelle AREA",
+    "areaName": "Nom de l'AREA",
+    "areaNameRequired": "Veuillez entrer un nom pour l'AREA",
+    "areaNamePlaceholder": "Nom de l'AREA",
+    "chooseActionService": "Choisir un service pour l'Action",
+    "selectService": "Sélectionner un service",
+    "chooseAction": "Choisir une Action",
+    "selectAction": "Sélectionner une Action",
+    "enterParam": "Entrer {{param}}",
+    "chooseReactionService": "Choisir un service pour la Réaction {{index}}",
+    "chooseReaction": "Choisir une Réaction pour {{service}}",
+    "selectReaction": "Sélectionner une Réaction",
+    "removeReaction": "Supprimer cette Réaction",
+    "addReaction": "Ajouter une Réaction",
+    "createAreaButton": "Créer l'AREA"
+  },
+  "createBlueprint": {
+    "manageAreas": "Gérer les AREA existantes",
+    "areaName": "Nom de l'AREA",
+    "areaDetails": "Détails de l'AREA",
+    "actions": "Actions",
+    "action": "Action",
+    "reactions": "Réactions",
+    "service": "Service",
+    "name": "Nom",
+    "parameters": "Paramètres",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "editArea": "Modifier AREA",
+    "updateAreaButton": "Mettre à jour l'AREA",
+    "deleteConfirmTitle": "Êtes-vous sûr de vouloir supprimer cette AREA?",
+    "deleteConfirmContent": "Cette action supprimera définitivement l'AREA nommée \"{{areaName}}\".",
+    "yes": "Oui",
+    "no": "Non",
+    "deleteCancelled": "Suppression annulée"
+  }
+}

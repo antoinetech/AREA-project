@@ -1,0 +1,62 @@
+services:
+  mongo:
+    image: mongo:latest
+    restart: always
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root 
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo_data:/data/db
+      - /etc/localtime:/etc/localtime:ro
+      - ./mongodb/initdb.d:/docker-entrypoint-initdb.d
+
+  nodejs:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: nodejs-app
+    restart: always
+    env_file:
+      - ./server/.env
+    ports:
+      - "8080:8080"
+      - "8084:8084"
+    environment:
+      MONGODB_URI: mongodb://noah:password@mongo:27017/my_database
+      NODE_ENV: production
+    stop_grace_period: 15s
+    depends_on:
+      - mongo
+
+  reactjs:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: reactjs-app
+    restart: always
+    ports:
+      - "8081:8081"
+    depends_on:
+      - nodejs
+      - mongo
+
+  mobile:
+    build:
+      context: ./AREA-Mobile
+      dockerfile: Dockerfile
+    container_name: mobile-app
+    restart: always
+    ports:
+      - "8085:8085"
+    environment:
+      EXPO_DEVTOOLS_LISTEN_ADDRESS: "0.0.0.0"
+      EXPO_DEVTOOLS_PORT: 8085
+    depends_on:
+      - nodejs
+      - mongo
+
+volumes:
+  mongo_data:

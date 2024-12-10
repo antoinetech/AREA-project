@@ -1,0 +1,224 @@
+{
+  "welcome": "Welcome to our website!",
+  "login": "Login",
+  "register": "Register",
+  "profile": {
+    "title": "User Profile",
+    "name": "First Name",
+    "surname": "Last Name",
+    "email": "Email",
+    "editFirstName": "Edit First Name",
+    "editLastName": "Edit Last Name",
+    "editPassword": "Change Password",
+    "logout": "Logout",
+    "pleaseLogin": "Please login to view your profile."
+  },
+  "services": {
+    "title": "Service Connections",
+    "connect": "Connect",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "disconnect": "Disconnect"
+  },
+  "modals": {
+    "editFirstName": {
+      "title": "Edit First Name",
+      "message": "Once you click on \"Save\", the new information will be assigned to you on your next login.",
+      "firstName": "First Name",
+      "save": "Save",
+      "cancel": "Cancel",
+      "placeholder": "New first name",
+      "firstNameRequired": "Please enter your first name"
+    },
+    "editLastName": {
+      "title": "Edit Last Name",
+      "message": "Once you click on \"Save\", the new information will be assigned to you on your next login.",
+      "lastName": "Last Name",
+      "save": "Save",
+      "cancel": "Cancel",
+      "placeholder": "New last name",
+      "lastNameRequired": "Please enter your last name"
+    },
+    "editPassword": {
+      "title": "Change Password",
+      "message": "Once you click on \"Save\", the new information will be assigned to you on your next login.",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "save": "Save",
+      "cancel": "Cancel",
+      "placeholderCurrent": "Current password",
+      "placeholderNew": "New password",
+      "currentPasswordRequired": "Please enter your current password",
+      "newPasswordRequired": "Please enter your new password"
+    },
+    "logout": {
+      "title": "Logout Confirmation",
+      "message": "Are you sure you want to logout?",
+      "confirm": "Logout",
+      "cancel": "Cancel"
+    },
+    "serviceLogout": {
+      "title": "Disconnect from",
+      "message": "Are you sure you want to disconnect from {{service}}?",
+      "confirm": "Disconnect",
+      "cancel": "Cancel"
+    },
+    "unsubscribe": {
+      "title": "Unsubscribe from",
+      "message": "Are you sure you want to unsubscribe from {{service}}?",
+      "confirm": "Unsubscribe",
+      "cancel": "Cancel"
+    }
+  },
+  "messages": {
+    "fetchUserInfoError": "Failed to fetch user information",
+    "fetchSubscriptionsError": "Failed to fetch user subscriptions",
+    "updateFirstNameSuccess": "First name updated successfully",
+    "updateFirstNameError": "Failed to update first name",
+    "updateLastNameSuccess": "Last name updated successfully",
+    "updateLastNameError": "Failed to update last name",
+    "fillAllFields": "Please fill in all fields",
+    "updatePasswordSuccess": "Password updated successfully",
+    "updatePasswordError": "Failed to update password",
+    "logoutSuccess": "Successfully logged out",
+    "logoutError": "An error occurred while logging out",
+    "disconnectedFrom": "Disconnected from",
+    "disconnectError": "Failed to disconnect from",
+    "unsubscribedFrom": "Successfully unsubscribed from",
+    "unsubscribeError": "Failed to unsubscribe from",
+    "subscribedTo": "Successfully subscribed to",
+    "subscribeError": "Failed to subscribe to",
+    "pleaseLoginFirst": "Please login first",
+    "loading": "Loading...",
+    "fetchServicesError": "Unable to retrieve Services.",
+    "fetchConnectedServicesError": "Unable to retrieve connected Services.",
+    "fetchAreasError": "Unable to retrieve AREAs.",
+    "areaCreatedSuccess": "AREA created successfully!",
+    "areaCreationFailed": "Failed to create AREA.",
+    "areaCreationError": "Error occurred while creating AREA.",
+    "areaDeletedSuccess": "AREA deleted successfully!",
+    "areaDeletionError": "Unable to delete AREA.",
+    "areaUpdatedSuccess": "AREA '{{areaName}}' updated successfully.",
+    "areaUpdateFailed": "Failed to update AREA: {{message}}",
+    "areaUpdateError": "Error occurred while updating AREA."
+  },
+  "menu": {
+    "home": "Home",
+    "profile": "Profile",
+    "information": "Useful Information",
+    "logout": "Logout",
+    "language": "Choose your language"
+  },
+  "information": {
+    "title": "What is the purpose of the AREA project?",
+    "description": "The AREA project (Actions, Reactions, Automated Events) is a platform that allows users to create automations between different online services. Inspired by the \"If This Then That\" (IFTTT) concept, AREA offers a simple and intuitive way to connect your favorite applications and services to automate repetitive tasks.",
+    "mainFeaturesTitle": "Main Features:",
+    "features": {
+      "actions": {
+        "title": "Actions",
+        "description": "Trigger events originating from a service. For example, receiving a new email or posting a new tweet."
+      },
+      "reactions": {
+        "title": "Reactions",
+        "description": "Tasks automatically executed in response to an action. For example, sending a notification or creating an event in a calendar."
+      },
+      "customAutomation": {
+        "title": "Custom Automation",
+        "description": "Create workflows tailored to your needs by combining different actions and reactions between multiple services."
+      }
+    },
+    "availableActionsReactionsTitle": "Available Actions and Reactions by Service:",
+    "actions": "Actions",
+    "reactions": "Reactions",
+    "services": {
+      "outlook": {
+        "name": "Outlook",
+        "actions": "Receive an email",
+        "reactions": "Send an email"
+      },
+      "github": {
+        "name": "GitHub",
+        "actions": "Commit detection, Repository creation, Follow a repository",
+        "reactions": ""
+      },
+      "spotify": {
+        "name": "Spotify",
+        "actions": "",
+        "reactions": "Pause playback, Create a playlist"
+      },
+      "discord": {
+        "name": "Discord",
+        "actions": "Receive a message in a channel",
+        "reactions": "Send a message in a channel"
+      },
+      "miro": {
+        "name": "Miro",
+        "actions": "Detection of item addition",
+        "reactions": "Add text, Add a circle, Add a sticky note, Add a frame"
+      },
+      "microsoftCalendar": {
+        "name": "Microsoft Calendar",
+        "actions": "Detection of event addition",
+        "reactions": "Add an event"
+      },
+      "twitch": {
+        "name": "Twitch",
+        "actions": "",
+        "reactions": "Update bio"
+      },
+      "twitter": {
+        "name": "Twitter",
+        "actions": "",
+        "reactions": "Make a post"
+      }
+    },
+    "whyUseAreaTitle": "Why use AREA?",
+    "whyUseAreaDescription": "AREA simplifies your daily life by automating repetitive and time-consuming tasks. By centralizing interactions between your applications, you save time and improve your productivity.",
+    "examplesTitle": "Usage Examples:",
+    "examples": {
+      "example1": "Automatically post a message on Discord when you receive an important email.",
+      "example2": "Add a task to your task manager when you create a new file in Google Drive.",
+      "example3": "Receive a notification on your phone when the weather forecasts rain."
+    },
+    "howToStartTitle": "How to start?",
+    "howToStartDescription": "To get started with AREA, go to the AREA creation page and connect your favorite services. Configure your own automations in a few simple steps and let AREA take care of the rest!",
+    "createAreaNowButton": "Create an AREA now"
+  },
+  "createArea": {
+    "title": "Create a new AREA",
+    "areaName": "AREA Name",
+    "areaNameRequired": "Please enter a name for the AREA",
+    "areaNamePlaceholder": "AREA Name",
+    "chooseActionService": "Choose a service for the Action",
+    "selectService": "Select a service",
+    "chooseAction": "Choose an Action",
+    "selectAction": "Select an Action",
+    "enterParam": "Enter {{param}}",
+    "chooseReactionService": "Choose a service for Reaction {{index}}",
+    "chooseReaction": "Choose a Reaction for {{service}}",
+    "selectReaction": "Select a Reaction",
+    "removeReaction": "Remove this Reaction",
+    "addReaction": "Add a Reaction",
+    "createAreaButton": "Create AREA"
+  },
+  "createBlueprint": {
+    "manageAreas": "Manage existing AREAs",
+    "areaName": "AREA Name",
+    "areaDetails": "AREA Details",
+    "actions": "Actions",
+    "action": "Action",
+    "reactions": "Reactions",
+    "service": "Service",
+    "name": "Name",
+    "parameters": "Parameters",
+    "edit": "Edit",
+    "delete": "Delete",
+    "editArea": "Edit AREA",
+    "updateAreaButton": "Update AREA",
+    "deleteConfirmTitle": "Are you sure you want to delete this AREA?",
+    "deleteConfirmContent": "This action will permanently delete the AREA named \"{{areaName}}\".",
+    "yes": "Yes",
+    "no": "No",
+    "deleteCancelled": "Deletion cancelled"
+  }
+}
