@@ -1,0 +1,13 @@
+image: gitpod/workspace-full
+
+# On utilise workspace-full pour avoir docker, docker-compose, etc.
+# Vérifie la doc Gitpod si tu dois installer quelque chose de plus.
+
+tasks:
+  - init: |
+      # Installer Docker Compose si besoin (Gitpod utilise docker CLI Compose v2)
+      # Normalement, docker-compose est déjà inclus dans workspace-full.
+      # Au cas où, tu peux essayer :
+      # sudo apt-get update && sudo apt-get install -y docker-compose
+      docker compose build
+    command: docker compose up
